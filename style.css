@@ -1,0 +1,81 @@
+body{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 156px;
+    margin-bottom: 30px;
+}
+
+.nav {
+    float: right;
+    margin-top: 20px;
+}
+
+#account {
+    width: 44px;
+}
+
+.nav > a {
+    list-style-type: none;
+    text-decoration: none;
+    padding: 14px 16px;
+    color: rgb(82, 82, 82);
+    font-size: 15px;
+}
+
+
+
+.search-bar{
+    width: 560px;
+    height: 10px;
+    background-color:#ffff;
+    display: flex;
+    align-items: center;
+    border-radius: 40px;
+    padding: 20px; 
+    border: solid #ccc 1px;
+}
+
+.search-bar > i {
+    font-size: 20px;
+    color: #777;
+    margin-right: 10px;
+}
+
+.search-bar > img {
+    width: 16px;
+}
+
+.search-bar > input {
+    flex: 1;
+    height: 10px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+}
+
+
+.search-bar:hover{
+    box-shadow: 0 0 5px rgb(209, 221, 221);
+}
+ 
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons button{
+    font-size: 14px;
+    color: rgb(65, 65, 65);
+    padding: 10px 20px;
+    margin: 40px 20px;
+    border: none;
+    background-color: rgb(233, 233, 233);
+}
